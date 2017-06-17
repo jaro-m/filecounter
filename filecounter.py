@@ -26,7 +26,7 @@ def select(names, extension):
     '''
     selected = []
     for name in names:
-        if name.endswith(extension):
+        if name.endswith(extension) or name.endswith(extension.lower()) or name.endswith(extension.upper()):
             selected.append(name)
     return selected
 
