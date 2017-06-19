@@ -1,7 +1,7 @@
-# filecounter
+# filecounter #
 a tiny tool to find and count files with a given extension
 
-#####Usage:
+##### Usage: #####
 
 _filecounter PATH EXTENSION_
 (or eventually: _python3 filecounter.py PATH EXTENSION_)
